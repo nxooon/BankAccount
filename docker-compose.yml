@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: bank_account
+    volumes:
+      - .:/app
+    working_dir: /app
