@@ -16,6 +16,4 @@ WORKDIR /app
 
 COPY . .
 
-RUN composer install
-
 ENTRYPOINT ["sh", "entry.sh"]
